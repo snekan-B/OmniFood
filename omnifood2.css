@@ -1,0 +1,486 @@
+.step-number
+{
+    font-size: 8.6rem;
+    color: #ddd;
+    font-weight: 600;
+
+}
+.teritary-heading
+{
+    font-size: 3.5rem;
+    margin-bottom: 1.6rem;
+}
+.step-description
+{
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.secondary-featured
+{
+    font-size: 1.4rem;
+    color: #e67e22;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.logos img{
+    height: 3rem;
+    filter:brightness(0);
+    opacity: 50%;
+}
+.logos
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* meals-section */
+
+.meals
+{
+    border-radius: 11px;
+    box-shadow: 0 0 3rem 3rem rgba(243, 240, 240, 0.75);
+    overflow: hidden;
+}
+.meal-head
+{
+    font-size: 2.4rem;
+    margin-bottom: 1.3rem;
+    font-weight: 600;
+}
+
+.meal-attributes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+
+.meal-attribute
+{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.meal-img
+{
+    width: 100%;
+}
+
+.meal-icon
+{
+    color: #e67e22;
+    height: 2rem;
+    width: 2rem;
+}
+strong{
+    font-style: 500;
+}
+
+.tags
+{
+    margin: 1.1rem;
+}
+.tag
+{
+    display: inline-block;
+    font-size: 1.2rem;
+    background-color: greenyellow;
+    padding: 0.4rem 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.tag--2
+{
+    background-color: rgb(11, 187, 11)
+}
+.tag--3
+{
+    background-color: rgb(247, 247, 28);
+}
+
+.text-container
+{
+    padding:4.2rem;
+}
+.list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+.list-item
+{
+    font-size: 1.8rem;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.list-icon
+{
+    height: 2rem;
+    width: 2rem;
+    color: #e67e22;
+}
+.heading-tertiary
+{
+    font-size: 3.4rem;
+    margin-bottom: 3rem;
+}
+
+.margin-btm
+{
+margin-bottom: 6rem;
+}
+
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+  margin-bottom: 5rem;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+/* testimonial-section
+ */
+.section-testimonial
+{
+    padding: 9.2rem;
+    background-color: #fdf2e9;
+}
+.testimonials
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8.7rem;
+    align-items: center;
+}
+
+.testimonial-img
+{
+    border-radius: 50%;
+    width: 6.2rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial-text
+{
+    color: #333;
+    line-height: 2;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.testimonial-name
+{
+    font-size: 1.4rem;
+}
+
+.gallery-image
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.gallery-image img{
+    width: 100%;
+}
+/* section-pricing */
+.section-pricing
+{
+    padding: 9.6rem 0;
+}
+.plan-header
+{
+    text-align: center;
+    margin-bottom: 3.4rem;
+}
+
+.pricing-plan
+{
+    border-radius: 11px;
+    
+    width: 75%;
+
+    padding: 3rem;
+}
+
+.plan-name
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #e67e22;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.plan-price
+{
+    font-size: 7.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+
+}
+.plan-price span{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.plan-text
+{
+    font-size: 1.4rem;
+}
+
+.plan-button
+{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.pricing-complete
+{
+    background-color: #fdf2e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-complete::after
+{
+    content: "Best Value";
+    position: absolute;
+    text-transform: uppercase;
+    background-color: yellow;
+    top: 5%;
+    right: -5%;
+    font-weight: 600;
+    padding: 0.8rem 3.2rem;
+    color: #333;
+    transform: rotate(45deg);
+}
+
+.pricing-starter
+{
+    border: 2px solid #fdf2e9;
+}
+
+.grid--4--cols
+{
+    margin-top: 9.8rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* faeture section */
+
+.feature-icon
+{
+
+    color: #e67e22;
+    background-color: #fdf2e9;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin-bottom: 3.2rem;
+    padding:1.6rem;
+    border-radius: 50%;
+
+}
+
+.feature-title
+{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight:700;
+    margin-bottom: 1.6rem;
+
+
+}
+
+.feature-text
+{
+    font-size: 1.8rem;
+    line-height: 1.8;
+
+}
+
+/* section-footer */
+
+.footer-logo
+{
+    margin-bottom: 3rem;
+}
+
+.grid--5--cols
+{
+    grid-template-columns: repeat(5,1fr);
+    padding: 4rem;
+}
+
+.social-logos
+{
+    display: flex;
+    gap: 1.4rem;
+    list-style: none;
+    margin-bottom: 5rem;
+    
+}
+
+.social-icon
+{
+    color: gray;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+.copyright
+{
+    color:gray;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.contact-heading
+{
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+
+}
+
+.contact-elements
+{
+    font-size: 1.7rem;
+    color: grey;
+}
+
+.address
+{
+    margin-bottom: 2.4rem;
+}
+
+.footer-heading
+{
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+
+}
+
+.footer-elements
+{
+    display:flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-element
+{
+    
+    font-size: 1.7rem;
+    color: grey;
+    list-style: none;
+}
+
+/* section-cta */
+.cta
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:#e67e22;
+    box-shadow: 0 0 3rem 0.5rem rgba(146, 144, 144, 0.75);
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.cta-img
+{
+    background-image: linear-gradient( to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35) ), url(img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-text
+{
+    padding: 4.8rem 6.8rem 6.8rem 6.8rem;
+}
+
+.text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+
+.cta-form
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.4rem;
+    column-gap: 3rem;
+    padding: 2rem;
+}
+
+.cta-form label
+{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: inherit;
+    margin-bottom: 2.3rem;
+}
+
+.cta-form::placeholder
+{
+    color: rgb(184, 183, 183);
+}
+.cta-form input{
+    font-size: 1.8rem;
+    font-family: inherit;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.cta-form select
+{
+    font-size: 1.8rem;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.cta-button
+{
+    font-size: 1.8rem;
+    background-color: #fdf2e9;align-self: flex-end;
+    padding: 2rem;
+}
+
+.cta-button:hover{
+    background-color: white;
+    cursor:pointer;
+}

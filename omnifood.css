@@ -1,0 +1,268 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Inter',sans-serif;
+    overflow-x: hidden;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+
+}
+
+.logo
+{
+    height: 2.2rem;
+}
+.nav-list
+{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+.head-link:link,.head-link:visited
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.head-link:hover,.head-link:active
+{
+    color: #e67e22;
+}
+
+
+/* MOBILE */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  .icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+  }
+  
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+
+  .sticky .main {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  }
+  
+  .sticky .section-hero {
+    margin-top: 9.6rem;
+  }
+  
+.section-hero
+{
+    background-color: #fdf2e9;
+    
+}
+.hero
+{
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    gap: 7.5rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.primary-heading
+{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    margin-bottom: 2rem;
+  
+}
+
+.description
+{
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 3.6rem;
+
+}
+.hero-img
+{
+    width: 88%;
+}
+
+.btn-1:link,.btn1:visited
+{
+text-decoration: none;
+background-color:#cf711f;
+font-size: 2rem;
+padding: 2rem;
+color: white;
+border-radius: 9px;
+display: inline-block;
+margin: 1.6rem;
+transition: all 1s;
+}
+.btn-1:hover,.btn1:active
+{
+    background-color:  #e67e22 ;
+}
+.btn-2:link,.btn-2:visited
+{
+background-color: white;
+text-decoration: none;
+font-size: 2rem;
+padding: 2rem;  
+color:black;
+border-radius: 9px;
+display: inline-block;
+margin:1.6rem;
+}
+.btn-2:hover,.btn-2:active
+{
+    background-color: #fdf2e9;
+    box-shadow: inset 0 0 0 3px white;
+    color: black;
+}
+
+.customer
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.customer-img img
+{
+    height:4.8rem;
+    width:4.8rem;
+    border-radius: 50%;
+    margin: -0.6rem;
+    border: 3px solid #fdf2e9;
+
+}
+
+.customer-text
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+
+.customer-text span{
+    color: #cf711f;
+}
+
+/* reusable-grid*/
+.section-how
+{
+    padding: 9.6rem 0;
+}
+.container
+{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid
+{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2cols
+{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 9.6rem;
+    column-gap: 6.5rem ;
+}
+
+.grid--3cols
+{
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 9.6rem;
+    column-gap: 6.5rem ;
+}
+
+.grid--center
+{
+    align-items: center;
+}
+
+.step-img-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step-img
+{
+    width: 35%;
+}
+
+.sub-heading
+{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #e67e22;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+}
+.secondary-heading
+{
+    font-size: 4.4rem;
+    line-height: 1.6;
+    margin-bottom: 4.2rem;
+    text-transform: uppercase;
+}
+
+.all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.link:link, .link:visited {
+    display: inline-block;
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    transition: all 0.3s;
+}
